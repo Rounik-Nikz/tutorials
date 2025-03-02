@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* border: 2px solid black; */
+}
+
+.navbar{
+    /* align vertically center krega */
+    /* justify horizontly */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: aqua;
+    /* flex-direction: row-reverse; */
+    
+}
+.logo{
+    margin: 20px;
+    
+}
+
+/* margin ya padding wle property se har jagah se woh  */
+.navbar-right{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+
+.navbar-right *{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+
+/* MAIN SECTION */
+.main{
+    background-color: gray;
+    height:350px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+
+.main #color{
+    color:white;
+}
+
+.main .inputArea{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: medium;
+}
+
+/* .main #firstInput{
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.main #secondInput{
+    margin-top: 20px;
+    padding: 15px;
+} */
+
+/* FOOTER AREA */
+.footer{
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
