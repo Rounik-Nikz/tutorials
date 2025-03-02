@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 2000vh; /* Make the page tall enough to scroll */
+    background-color: #f4f4f4;
+}
+
+.container__1 {
+    position: sticky;
+    top: 20px; /* Position the container 20px from the top */
+    background-color: #fff;
+    border: 2px solid #333;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100; /* Ensure it stays on top of other elements */
+}
+
+.box1, .box2 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.box1 {
+    background-color: #333;
+}
+
+.box2 {
+    background-color: #007BFF;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.content p {
+    margin: 10px 0;
+    font-size: 18px;
+}

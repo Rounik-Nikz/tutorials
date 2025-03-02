@@ -1,0 +1,33 @@
+
+/* .logo{
+    display: flex;
+} */
+/* .nav-list{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* display: /flex; */
+    /* margin-right: 10px; */
+    /* width: 500px; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+/* } */
+
+.logo{
+    /* convert any type of element to inline */
+    display:inline; 
+}
+
+
+.item{
+    display: inline-block;
+    
+}
+/* .item{
+    display:none;
+} */
+
+img{
+    opacity: 0.5;
+}
+
+
