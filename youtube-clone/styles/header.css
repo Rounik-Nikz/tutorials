@@ -1,0 +1,87 @@
+
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+}
+
+.hamburger-menu{
+    height: 30px;
+}
+
+.youtube-logo{
+    height: 25px;
+}
+
+.middle-section{
+    /* background-color: lightpink; */
+    flex:1;
+    display: flex;
+    
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 550px;
+
+    /* justify-content: center; */
+}
+
+.search-bar{
+    flex:1;
+    height: 30px;
+    padding-left: 10px;
+    font-size:15px;
+    border:1px solid lightgray;
+    border-radius: 25px 0px 0px 25px;
+    width: 0;
+}
+
+.search-button{
+    height: 35px;
+    width: 55px;
+    margin-left: -1px;
+    border-radius: 0px 25px 25px 0px;
+    border:1px solid lightgray;
+    margin-right: 10px;
+}
+
+.search-icon{
+    height: 25px;
+}
+
+.voice-search-button{
+    height: 35px;
+    border-radius: 50px;
+    border:1px solid lightgray;
+}
+
+.voice-search-icon{
+    height: 25px;
+    margin-top: 3px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload-icon{
+    height: 30px;
+}
+
+.notification-icon{
+    height: 28px;
+}
+
+.current-user-picture{
+    height: 32px;
+    border-radius: 50px;
+}
